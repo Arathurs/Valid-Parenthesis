@@ -10,7 +10,7 @@ Note that an empty string is also considered valid.
 
 # Solution
 
-This solution beats up to 99.9% of other javascript submissions on Leetcode for the same problem. I also refactored this solution into a more verbose version with constants. It can be found in the file named isValidWithConstants.js.
+This solution beats up to 99.9% of other javascript submissions on Leetcode for the same problem.
 
 #Example 1:
 

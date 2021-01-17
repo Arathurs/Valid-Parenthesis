@@ -1,3 +1,7 @@
+/**
+ * @param {string} s
+ * @return {boolean}
+ */
 function isValid(s) {
     const isOdd = s.length % 2 !== 0;
       let temp = '';

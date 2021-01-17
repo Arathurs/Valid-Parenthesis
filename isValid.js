@@ -39,5 +39,5 @@ function isValid(s) {
             temp += ']';
         }
     }
-    return true;
+    return temp ? false : true;
 };

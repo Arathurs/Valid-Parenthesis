@@ -2,12 +2,10 @@
  * @param {string} s
  * @return {boolean}
  */
-// This solution is the highest performing by making use of memorization, efficient data structures as well as minimalistic conditionals
+// This solution is the highest performing by making use of memorization,
+// efficient data structures as well as minimalistic conditionals
 function isValid(s) {
-
   const isOdd = s.length % 2 !== 0,
-    firstChar = s[0],
-    lastChar = s[s.length - 1],
     lastChars = {
       ')': true,
       '}': true,
@@ -19,14 +17,6 @@ function isValid(s) {
       '[': true
     };
   let temp = '';
-  /*if (
-    s.length < 2 ||
-    isOdd ||
-    lastChars[firstChar] ||
-    firstChars[lastChar]
-  ) {
-    return false;
-  }*/
 
   for (let i = 0; i < s.length; i++) {
     const curr = s[i];

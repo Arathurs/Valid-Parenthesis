@@ -2,6 +2,7 @@
  * @param {string} s
  * @return {boolean}
  */
+// This solution is the highest performing by making use of memorization, efficient data structures as well as minimalistic conditionals
 function isValid(s) {
 
   const isOdd = s.length % 2 !== 0,
